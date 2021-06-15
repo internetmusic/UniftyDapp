@@ -424,7 +424,7 @@ function TncDapp() {
                 opensea : chain_id == '1' || chain_id == '4' ? 'https://opensea.io/assets/'+nfts[i].erc1155+'/'+nfts[i].id : 'collectible.html?collection=' +  nfts[i].erc1155 + '&id=' + nfts[i].id
             });
 
-            // hack to not display an adult NFT in the unifty rares farm
+            // hack to not display an adult NFT in the Copyright Flow rares farm
             if( chain_id == '64' && nfts[i].erc1155.toLowerCase() == '0x16bc9611337A7251bA4575B55a37bb251cd61f4C'.toLowerCase() && nfts[i].id == 8 ){
 
                 // nothing
@@ -1077,7 +1077,7 @@ function TncDapp() {
             case 'unifty':
                 let length = await tncLib.getMyErc1155Length();
                 if(length == 0){
-                    $('#walletModalBody').html("You don't own any Unifty collection.");
+                    $('#walletModalBody').html("You don't own any Copyright Flow collection.");
                     return;
                 }
                 for(let i = length - 1; i >= 0; i--){

@@ -144,7 +144,7 @@ function _alert(msg){
 
 function displayNulsScoInfo(){
 
-    _alert("Project capital funding is brokered by <a href=\"https://www.nuls.io/\" target=\"_blank\">NULS'</a> <a href=\"https://nuls.medium.com/nuls-2-0-project-nerve-network-bridges-into-the-larger-bitcoin-and-ethereum-universe-5a54bf0138e6\" target=\"_blank\">SCO</a> platform (Staked Coin Output) and highly recommended by the Unifty project.<br /><br />\n" +
+    _alert("Project capital funding is brokered by <a href=\"https://www.nuls.io/\" target=\"_blank\">NULS'</a> <a href=\"https://nuls.medium.com/nuls-2-0-project-nerve-network-bridges-into-the-larger-bitcoin-and-ethereum-universe-5a54bf0138e6\" target=\"_blank\">SCO</a> platform (Staked Coin Output) and highly recommended by the Copyright Flow project.<br /><br />\n" +
         "As an entrepreneur, you may issue your own token on the NULS blockchain and the POCM platform will automatically introduce your project to investors.<br /><br />\n" +
         "Investors will stake on your token and you receive $NULS rewards as capital.<br /><br />\n" +
         "Additionally, your token will be listed on NULS' Nerve Network DEX (Decentralized Exchange) once completed.<br /><br />\n" +

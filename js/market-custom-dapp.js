@@ -1285,7 +1285,7 @@ function TncDapp() {
             }
         }
 
-        // my unifty collections
+        // my Copyright Flow collections
         let length = await tncLib.getErc1155Length(address);
 
         for(let i = length - 1; i >= 0; i--){

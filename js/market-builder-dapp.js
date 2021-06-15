@@ -286,7 +286,7 @@ function TncDapp() {
 
                 if( balance.lt(stakingAmount) ){
 
-                    _alert('Not enough $NIF available for staking based on your tier level ('+(await web3.utils.fromWei(stakingAmount.toString()+""))+' $NIF required for Tier ' + tier + ')');
+                    _alert('Not enough $CCIM available for staking based on your tier level ('+(await web3.utils.fromWei(stakingAmount.toString()+""))+' $CCIM required for Tier ' + tier + ')');
                     return;
                 }
             }
@@ -686,14 +686,14 @@ function TncDapp() {
 
         if( balance.lt(stakingAmount) ){
 
-            _alert('Not enough $NIF available for staking based on your tier level ('+(await web3.utils.fromWei(stakingAmount.toString()+""))+' $NIF required for Tier ' + tier + ')');
+            _alert('Not enough $CCIM available for staking based on your tier level ('+(await web3.utils.fromWei(stakingAmount.toString()+""))+' $CCIM required for Tier ' + tier + ')');
             return;
         }
 
         if( allowance.lt(nif)  ){
 
             $('#marketStakeButton').prop('disabled', true);
-            $('#marketStakeButton').html('Approve $NIF first!');
+            $('#marketStakeButton').html('Approve $CCIM first!');
 
             await window.tncLib.approveErc20(
                 tncLib.nif.options.address,
