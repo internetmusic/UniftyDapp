@@ -46,8 +46,8 @@ body .btn:not(:disabled):not(.disabled) {
 .dark-edition {
   --primary-color: #007e5e;
   --primary-hover-light: rgba(253, 121, 226, .1);
-  --primary-hover-dark: #f047ce;
-  --title-color: #ec6fd2;
+  --primary-hover-dark: #007e5e;
+  --title-color: #007e5e;
   --bg-primary: #0d141a;
   --bg-secondary: #121a21;
   --bg-tertiary: #121a21;
