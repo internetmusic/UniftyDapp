@@ -25,7 +25,7 @@ switch(chain_id){
         blocked_collections = [
             "0x601c54655927E15f897480Bf0964085892Ec2d4F".toLowerCase(), // haremtoken
             "0x0E015FaeEb2701D0b96eB2008cAdBF30A3C7A3de".toLowerCase(), // mcthot
-            "0x2a254f0179786a43c9b449CBe6aA2Dce77e1561D".toLowerCase() // Cold Truth Culture NFTs NSFW Collection
+            "0x2a254f0179786a43c9b449CBe6aA2Dce77e1561D".toLowerCase() // Cold Truth Culture NFTs CCIM Collection
         ];
         break;
     // Binance Smart Chain
@@ -59,7 +59,7 @@ switch(chain_id){
             "0x6d0E3482C91b3B6FF6caBB39197ED8685ff1780c".toLowerCase(), // first tape
             "0xE696830c4B9F06F7f4355a515Bef4d10914f0c99".toLowerCase(), // lucky enough
             "0xb6CD5031AF55d33C6EE25e9391f41E8f1BBEAfb5".toLowerCase(), // xxxnifty
-            "0xFbFf3b578D87a115fe4a53cD2AfbA70ef206310f".toLowerCase(), // NSFW coin
+            "0xf2Cc839A108a44Ed544EEe783285d155Bd572E1B".toLowerCase(), // CCIM coin
             "0x3bfB2AA30F34D22749e3232f790D2CCCe811E081".toLowerCase(), // started stone kitten
             "0x65502D27b7120b2b212fc9852d9B7453a8BF09e4".toLowerCase(), // fun in the wood
             "0xC319187aa298ADA4c9123647fAC1a8664627f5Fa".toLowerCase(), // mycoll

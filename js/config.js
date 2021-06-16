@@ -58,7 +58,7 @@ switch(chain_id){
             "0x6d0E3482C91b3B6FF6caBB39197ED8685ff1780c".toLowerCase(), // first tape
             "0xE696830c4B9F06F7f4355a515Bef4d10914f0c99".toLowerCase(), // lucky enough
             "0xb6CD5031AF55d33C6EE25e9391f41E8f1BBEAfb5".toLowerCase(), // xxxnifty
-            "0xFbFf3b578D87a115fe4a53cD2AfbA70ef206310f".toLowerCase(), // NSFW coin
+            "0xFbFf3b578D87a115fe4a53cD2AfbA70ef206310f".toLowerCase(), // CCIM coin
             "0x3bfB2AA30F34D22749e3232f790D2CCCe811E081".toLowerCase() // started stone kitten
         ];
         break;
