@@ -72,20 +72,20 @@ body.light-edition {
   --scrollbar-thumb-hover: linear-gradient(13deg, #414166 14%, #007e5e 64%); }
 
 .light-edition {
-  --primary-color: #202060;
+  --primary-color: #000000;
   --primary-hover-light: rgba(32, 32, 96, .1);
-  --primary-hover-dark: #06064a;
-  --title-color: #202040;
+  --primary-hover-dark: #000000;
+  --title-color: #000000;
   --bg-primary: #f4f7fb;
   --bg-secondary: #ffffff;
   --bg-tertiary: #eef0f8;
   --text-primary: #4c4c6f;
   --text-primary-light: rgba(76, 76, 111, .5);
   --text-footer: rgba(76, 76, 111, .5);
-  --heading-color: #202060;
+  --heading-color: #000000;
   --subheading-color: rgba(76, 76, 111, .3);
   --modal-border-text: #a3abb2;
-  --modal-text: #202040;
+  --modal-text: #000000;
   --image-padding: #e2e3e8;
   --traits-bg: #fff;
   --shadow-primary: 0 16px 38px -12px rgba(225, 225, 225, .56), 
