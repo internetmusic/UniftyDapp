@@ -1,0 +1,15 @@
+CCIM
+0xf2Cc839A108a44Ed544EEe783285d155Bd572E1B
+
+NIF contract:
+0x7e291890B01E5181f7ecC98D79ffBe12Ad23df9e
+
+******
+
+    // ETHEREUM RINKEBY
+    if(chain_id === "4") {
+
+        this.market = new web3.eth.Contract(marketABI, '0xDAeB07548CA0522E36D8469B66E2E4b8E586047f', {from: this.account});
+        this.swap = new web3.eth.Contract(swapABI, '0x2B9569E5047BCc7FF2C39aA8A2C5e312daFD5eef', {from: this.account});
+        this.wrap = new web3.eth.Contract(marketWrapABI, '0xfc4d44f3Ce9683273DD56dD133aA797Ce39b3CFA', {from: this.account});
+        this.account = '';
