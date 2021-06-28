@@ -71,6 +71,7 @@ body.light-edition {
   --scrollbar-thumb: linear-gradient(0deg, #5c5c73 27%, rgb(3, 189, 142) 60%);
   --scrollbar-thumb-hover: linear-gradient(13deg, #414166 14%, #007e5e 64%); }
 
+
 .light-edition {
   --primary-color: #000000;
   --primary-hover-light: rgba(32, 32, 96, .1);
